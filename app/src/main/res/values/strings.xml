@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+    <string name="user_name">Pierre Harris KOUMDA NANITELAMIO</string>
+    <string name="commande">commande</string>
+    <string name="favoris">Favoris</string>
+    <string name="wallet">Portefeuille</string>
+    <string name="preferences">Préférences Professionnelles</string>
+    <string name="subtitleçpreferences">Des repas Proféssionnels rapides, en toute \nsimplicité</string>
+    <string name="subtitle_pass_delivery">Essayez gratuitement pendant \n 01 mois</string>
+    <string name="promotiion">Promotions</string>
+    <string name="fidelite">Programme de Fidélité Restaurant</string>
+    <string name="securite">Centre de Sécurité COVID-19</string>
+    <string name="title_activity_menu_principale">MenuPrincipaleActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_settings">Paramètres</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
