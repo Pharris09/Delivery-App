@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/barre_de_navigation_secondaire">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/barre_de_navigation_secondaire"
+    app:startDestination="@id/rayonFragment">
 
+    <fragment
+        android:id="@+id/defautProduitFragment"
+        android:name="com.example.deliveryapp.ui.categories.DefautProduitFragment"
+        android:label="fragment_defaut_produit"
+        tools:layout="@layout/fragment_defaut_produit" />
+    <fragment
+        android:id="@+id/rayonFragment"
+        android:name="com.example.deliveryapp.ui.categories.RayonFragment"
+        android:label="fragment_rayon"
+        tools:layout="@layout/fragment_rayon" />
 </navigation>
