@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/defautProduitFragment"
-        android:name="com.example.deliveryapp.ui.categories.DefautProduitFragment"
+        android:name="com.example.deliveryapp.ui.fragments.categories.DefautProduitFragment"
         android:label="fragment_defaut_produit"
         tools:layout="@layout/fragment_defaut_produit" />
     <fragment
         android:id="@+id/rayonFragment"
-        android:name="com.example.deliveryapp.ui.categories.RayonFragment"
+        android:name="com.example.deliveryapp.ui.fragments.categories.RayonFragment"
         android:label="fragment_rayon"
         tools:layout="@layout/fragment_rayon" />
 </navigation>

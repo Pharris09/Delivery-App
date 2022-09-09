@@ -1,13 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <Preference
         android:title="Pierre Harris KOUMDA  NANITELAMIO"
         android:icon="@drawable/user_girl_01"
+        app:selectable="false"
         android:summary="         "/>
     <Preference
         android:title="@string/commande"
-        android:icon="@drawable/ic_baseline_receipt_24"/>
+        android:icon="@drawable/ic_baseline_receipt_35"/>
     <Preference
         android:title="@string/securite"
-        android:icon="@drawable/ic_baseline_security_24"/>
+        android:icon="@drawable/ic_baseline_security_35"/>
+    <Preference
+        android:title="@string/favoris"
+        android:icon="@drawable/ic_baseline_favorite_24"/>
+    <Preference
+        android:title="@string/fidelite"
+        android:icon="@drawable/ic_baseline_stars_24"/>
+    <Preference
+        android:title="@string/preferences"
+        android:icon="@drawable/ic_baseline_card_travel_24"
+        android:summary="@string/subtitleçpreferences"
+        />
+    <Preference
+        android:title="Aide"
+        android:icon="@drawable/ic_baseline_help_outline_24"/>
+    <Preference
+        android:title="@string/promotiion"
+        android:icon="@drawable/ic_baseline_local_offer_24"/>
+    <Preference
+        android:title="Pass Délivery App"
+        android:icon="@drawable/ic_baseline_local_shipping_24"
+        android:summary="@string/subtitle_pass_delivery"
+        />
+    <Preference
+        android:title="Livrez avec Delivery Food"
+        android:icon="@drawable/ic_baseline_delivery_dining_24"/>Parametres
+    <Preference
+        android:title="Parametres"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+    <Preference
+        android:title="          "
+        />
 </PreferenceScreen>

@@ -6,9 +6,9 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import androidx.preference.PreferenceFragmentCompat
 import com.example.deliveryapp.databinding.ActivityMainBinding
-import com.example.deliveryapp.ui.HomeFragment
-import com.example.deliveryapp.ui.PanierFragment
-import com.example.deliveryapp.ui.ParcourirFragment
+import com.example.deliveryapp.ui.fragments.categories.HomeFragment
+import com.example.deliveryapp.ui.fragments.categories.PanierFragment
+import com.example.deliveryapp.ui.fragments.categories.ParcourirFragment
 import com.example.deliveryapp.ui.SettingsFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 

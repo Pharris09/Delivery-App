@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/page_color">
-
         <ScrollView
             android:id="@+id/scrollView2"
             android:layout_width="match_parent"
@@ -21,7 +20,8 @@
                         <androidx.cardview.widget.CardView
                             android:layout_width="match_parent"
                             android:layout_height="82dp"
-                            android:background="@color/page_color">
+                            android:background="@color/page_color"
+                            >
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
@@ -47,7 +47,8 @@
                         <androidx.cardview.widget.CardView
                             android:id="@+id/commande"
                             android:layout_width="match_parent"
-                            android:layout_height="70dp">
+                            android:layout_height="70dp"
+                            android:clickable="true">
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="match_parent"
